@@ -77,6 +77,7 @@ upstream/profiles/
 upstream/sites/
 upstream/themes/
 upstream/web/
+upstream/libraries/
 upstream-configuration/core/
 upstream-configuration/drush/
 upstream-configuration/modules/
@@ -84,6 +85,7 @@ upstream-configuration/profiles/
 upstream-configuration/sites/
 upstream-configuration/themes/
 upstream-configuration/web/
+upstream-configuration/libraries/
 
 
 # Generally you should only ignore the root vendor directory. It's important
