@@ -11,25 +11,11 @@
         {
             "type": "path",
             "url": "upstream-configuration"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "ymcatwincities/openy",
-                "version": "9.2",
-                "type": "drupal-profile",
-                "source": {
-                    "url": "https://github.com/ymcatwincities/openy",
-                    "type": "git",
-                    "reference": "88c2a57739bd12b2bba21155d9da32af65f7f29f"
-                }
-            }
         }
     ],
     "require": {
         "pantheon-upstreams/upstream-configuration": "*",
-        "drush/drush": "^10",
-        "ymcatwincities/openy": "*"
+        "drush/drush": "^10"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -84,13 +70,5 @@
         "platform": {
             "php": "7.4"
         }
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "cd web/profiles/composer/openy && composer --no-cache --no-interaction --no-progress --prefer-dist --ansi update"
-        ],
-        "post-update-cmd": [
-            "cd web/profiles/composer/openy && composer --no-cache --no-interaction --no-progress --prefer-dist --ansi update"
-        ]
     }
 }
