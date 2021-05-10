@@ -5,6 +5,19 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ymcatwincities/openy",
+                "version": "9.2",
+                "type": "drupal-profile",
+                "source": {
+                    "url": "https://github.com/ymcatwincities/openy",
+                    "type": "git",
+                    "reference": "88c2a57739bd12b2bba21155d9da32af65f7f29f"
+                }
+            }
         }
     ],
     "require": {
@@ -14,6 +27,7 @@
         "drupal/core-recommended": "^8.8 || ^9",
         "pantheon-systems/drupal-integrations": "^8 || ^9",
         "cweagans/composer-patches": "^1.0",
-        "zaporylie/composer-drupal-optimizations": "^1.2"
+        "zaporylie/composer-drupal-optimizations": "^1.2",
+        "ymcatwincities/openy": "*"
     }
 }
