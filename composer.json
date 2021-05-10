@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "pantheon-upstreams/upstream-configuration": "*",
+        "pantheon-upstreams/upstream-configuration": "dev-master",
         "drush/drush": "^10"
     },
     "conflict": {
